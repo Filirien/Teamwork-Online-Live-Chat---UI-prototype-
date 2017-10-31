@@ -100,7 +100,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
                             <Add.Item>
-                                <CheckBox Text="Chat Anonimously" IsChecked="True" FontFamily="Source Sans Pro" Id="4b62e349-2e95-494c-8e5d-1c1bd6f54511" Panel.Bounds="441,184,5*{5,2147483647},5*{5,2147483647}">
+                                <CheckBox Text="Chat Anonimously" FontFamily="Source Sans Pro" Id="4b62e349-2e95-494c-8e5d-1c1bd6f54511" Panel.Bounds="441,184,5*{5,2147483647},5*{5,2147483647}">
                                     <CheckBox.Checked>
                                         <CommandSwitchTo SceneId="978e9da8-dbcc-478e-9dd3-75474c414a1d" AutoRevertEvent="CheckBox.Unchecked" Created="10/31/2017 08:40:38" Id="4db26579-64eb-4777-8821-13c156509903" />
                                     </CheckBox.Checked>
