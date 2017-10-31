@@ -1,0 +1,131 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.1000.51"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                        xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                        Id="b70118b5-c1d1-416b-b950-2c88a6d2f6bc" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="600" Height="300" Background="#00FFFFFF" Id="743c2dc9-91eb-4c58-8978-5496e44b7479">
+            <BorderedContent.Layers>
+                <Layer Id="692c915a-05b0-4ce6-b7cf-c4cf8206915e" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="e680b615-703a-4132-a689-c8258b21a8bb" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="9da6aaf3-6ffb-41da-a738-b80f14fa4533" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="f0f0e59e-9311-488c-abeb-082b6826e74b" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="10/31/2017 08:02:32" Id="c8557269-e755-45e8-b269-7ebdb0f68a0d">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3d050f93-dcc2-48e4-b636-6fcaaf2ced39">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <ContainerBox CornerRadius="20" Id="cd1125e4-5d15-46e2-981d-d4fe9ae260c8" Panel.Bounds="0,0,600{5,2147483647},300{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="72de7900-5b5e-4564-bf18-7ad61288c8c2" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <Title RichText="Register now" FontFamily="Source Sans Pro" Id="8ec76f67-7caf-4abe-ab2a-77a7ef9ced07" Panel.Bounds="108,28,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <TextBox WatermarkText="Username" Id="0aa79bd7-51a6-439b-9063-6627911433f7" Panel.Bounds="63,90,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-user" Id="2ee4c3d2-9b15-4af1-b510-ad4b0e2b660c" Panel.Bounds="23,88,26{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <PasswordBox WatermarkText="Email" Id="664ea908-db14-45ff-8025-e6dae8744ac4" Panel.Bounds="264,90,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <Icon CatalogId="Mail" Id="581bf056-6693-4454-a455-ae3278a9976e" Panel.Bounds="221,88,26{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <PasswordBox WatermarkText="Password" FontFamily="Source Sans Pro" Id="b4563af4-b7cf-437a-9c5d-58c358f7545c" Panel.Bounds="63,138,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <PasswordBox WatermarkText="Confirm password" FontFamily="Source Sans Pro" Id="5d020d2f-4392-4a3a-a914-dbbf7aff2783" Panel.Bounds="264,138,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-lock" Id="a6da643a-3199-4159-a1e0-ab38d67c6795" Panel.Bounds="23,137,26{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-lock" Id="2f7a74b3-de3d-4c1e-a39e-fc5cc26cbae4" Panel.Bounds="221,136,26{5,2147483647},26{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <Title RichText="Login" FontFamily="Source Sans Pro" Id="52a3f514-d6b4-49b9-8db8-d5e36ef3bd21" Panel.Bounds="462,28,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <Button Text="Register" CornerRadius="8" FontFamily="Source Sans Pro" Id="bb2775c0-db29-481e-ae67-739aece759d9" Panel.Bounds="160,238,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <TextBox WatermarkText="Your username" FontFamily="Source Sans Pro" Id="c5f0db23-f09f-4a3e-aa20-a4857056507e" Panel.Bounds="441,90,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <PasswordBox WatermarkText="Password" FontFamily="Source Sans Pro" Id="5d5c02f7-87aa-4c9d-8075-d72cf348353f" Panel.Bounds="441,137,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <CheckBox Text="Chat Anonimously" IsChecked="True" FontFamily="Source Sans Pro" Id="4b62e349-2e95-494c-8e5d-1c1bd6f54511" Panel.Bounds="441,184,5*{5,2147483647},5*{5,2147483647}">
+                                    <CheckBox.Checked>
+                                        <CommandSwitchTo SceneId="978e9da8-dbcc-478e-9dd3-75474c414a1d" AutoRevertEvent="CheckBox.Unchecked" Created="10/31/2017 08:40:38" Id="4db26579-64eb-4777-8821-13c156509903" />
+                                    </CheckBox.Checked>
+                                </CheckBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
+                            <Add.Item>
+                                <Button Text="Login" CornerRadius="8" FontFamily="Source Sans Pro" Id="b39b456d-3b85-457c-8a2b-675bb7af2e06" Panel.Bounds="457,238,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="BorderedContent.CornerRadius" Value="10" Target="743c2dc9-91eb-4c58-8978-5496e44b7479" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Checked Chat Anonimously" ParentScene="c8557269-e755-45e8-b269-7ebdb0f68a0d" Created="10/31/2017 08:40:38" Id="978e9da8-dbcc-478e-9dd3-75474c414a1d">
+            <Scene.KeyFrames>
+                <KeyFrame Id="829f45f4-d0a8-4fc9-a6d0-a4df4dfe36fa">
+                    <KeyFrame.Operations>
+                        <Set Property="Control.IsEnabled" Value="False" Target="5d5c02f7-87aa-4c9d-8075-d72cf348353f" />
+                        <Set Property="CheckBox.IsChecked" Value="True" Target="4b62e349-2e95-494c-8e5d-1c1bd6f54511" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>
