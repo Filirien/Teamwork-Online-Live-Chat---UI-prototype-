@@ -53,7 +53,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="8ff2c6c5-f9e5-453f-b025-38181531ce08">
                             <Add.Item>
-                                <ContainerBox Color="#FF8D8D8D" Id="3c246096-99d4-46f4-878e-32c99a6e4661" Panel.Bounds="179,109,580{5,2147483647},518{5,2147483647}">
+                                <ContainerBox Color="#FF8D8D8D" Id="3c246096-99d4-46f4-878e-32c99a6e4661" Panel.Bounds="227,150,580{5,2147483647},518{5,2147483647}">
                                     <ContainerBox.Content>
                                         <Container ClipToContainer="True" Id="b0f37c77-287e-44c6-9159-837ec4fe0da5" />
                                     </ContainerBox.Content>

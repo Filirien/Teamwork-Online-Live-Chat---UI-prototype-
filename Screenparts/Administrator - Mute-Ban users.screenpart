@@ -1,10 +1,10 @@
-﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.1000.51"?>
 <ScreenPart xmlns="http://prototypes.infragistics.com/"
-                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
-                                                                                     xmlns:i="http://prototypes.infragistics.com/ios7/"
-                                                                                     Id="52034851-7f4b-4c5f-9487-9680a050b8bb" d:Design.ShowGuides="False">
+                                                                                        xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                        xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                        Id="52034851-7f4b-4c5f-9487-9680a050b8bb" d:Design.ShowGuides="False">
     <ScreenPart.Content>
-        <BorderedContent Width="200" Height="200" Background="#00FFFFFF" Id="bba58b83-2d41-4fa3-84a5-c1960cceeb64">
+        <BorderedContent Width="776" Height="643" Background="#00FFFFFF" Id="bba58b83-2d41-4fa3-84a5-c1960cceeb64">
             <BorderedContent.Layers>
                 <Layer Id="056eea6d-fd96-49f3-878b-9497c79e6010" Panel.Layout="Stretch" />
                 <AnnotationsLayer Id="1976ee26-f9ee-4695-b7cb-ffb75800ee3e" Panel.Layout="Stretch" />
@@ -27,7 +27,7 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <ContainerBox Id="d272c1f1-f552-44fa-b827-793e5e4e8d19" Panel.Bounds="-35,-202,580{5,2147483647},88{5,2147483647}">
+                                <ContainerBox Id="d272c1f1-f552-44fa-b827-793e5e4e8d19" Panel.Bounds="174,16,580{5,2147483647},88{5,2147483647}">
                                     <ContainerBox.Content>
                                         <Container ClipToContainer="True" Id="f5dc7a1d-6508-409b-957d-99b2a8217128">
                                             <Container.Children>
@@ -40,7 +40,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <ContainerBox Id="0459183d-564b-49e7-bc9d-d91e0c07866c" Panel.Bounds="-187,-202,153{5,2147483647},579{5,2147483647}">
+                                <ContainerBox Id="0459183d-564b-49e7-bc9d-d91e0c07866c" Panel.Bounds="22,16,153{5,2147483647},579{5,2147483647}">
                                     <ContainerBox.Content>
                                         <Container ClipToContainer="True" Id="fe62ed18-d4d5-4885-be3d-d1a4c540008f">
                                             <Container.Children>
@@ -53,7 +53,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <ContainerBox Color="#FF8D8D8D" Id="3b871378-5997-4024-a54c-37b4c2d8df72" Panel.Bounds="-35,-115,580{5,2147483647},518{5,2147483647}">
+                                <ContainerBox Color="#FF8D8D8D" Id="3b871378-5997-4024-a54c-37b4c2d8df72" Panel.Bounds="174,103,580{5,2147483647},518{5,2147483647}">
                                     <ContainerBox.Content>
                                         <Container ClipToContainer="True" Id="4eb47617-9c52-43fa-b0ff-5e42ecba2e25" />
                                     </ContainerBox.Content>
@@ -62,17 +62,17 @@
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <TextArea Id="e8960eae-d13a-4852-89fe-285262aef4eb" Panel.Bounds="-187,374,732{5,2147483647},29{5,2147483647}" />
+                                <TextArea Id="e8960eae-d13a-4852-89fe-285262aef4eb" Panel.Bounds="22,592,732{5,2147483647},29{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <i:SearchBar WatermarkText="Search" FontFamily="Source Sans Pro" Id="699e8747-90ce-4d88-a880-8f936b8f9230" Panel.Bounds="217,-170,122{105,2147483647},5*{5,2147483647}" />
+                                <i:SearchBar WatermarkText="Search" FontFamily="Source Sans Pro" Id="699e8747-90ce-4d88-a880-8f936b8f9230" Panel.Bounds="426,48,122{105,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <i:AdvancedSettings Direction="Vertical" Thickness="0" Id="e9e180fb-7a58-4176-a4bf-dc577d4ed11b" Panel.Bounds="-184,-46,145{5,2147483647},5*{5,2147483647}">
+                                <i:AdvancedSettings Direction="Vertical" Thickness="0" Id="e9e180fb-7a58-4176-a4bf-dc577d4ed11b" Panel.Bounds="25,172,145{5,2147483647},5*{5,2147483647}">
                                     <i:AdvancedSettings.Template>
                                         <Template Id="2a9782c9-1de1-4a46-aa13-ed198d4fb7bb">
                                             <Template.Content>
@@ -114,27 +114,27 @@
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <Icon CatalogId="fa-user" Id="250f8a28-f4c0-42d0-8931-03a59b70fc33" Panel.Bounds="0,-101,130{5,2147483647},130{5,2147483647}" />
+                                <Icon CatalogId="fa-user" Id="250f8a28-f4c0-42d0-8931-03a59b70fc33" Panel.Bounds="209,117,130{5,2147483647},130{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <Button Text="Delete room" CornerRadius="8" FontFamily="Source Sans Pro" Id="8ff701ea-087c-417b-a5c8-63b57c7742a1" Panel.Bounds="742,65,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Delete room" CornerRadius="8" FontFamily="Source Sans Pro" Id="8ff701ea-087c-417b-a5c8-63b57c7742a1" Panel.Bounds="247,547,160{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <Title RichText="User 3" FontFamily="Source Sans Pro" Id="2d0079bb-f973-4cde-b524-99a2dc8a930d" Panel.Bounds="182,-88,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="User 3" FontFamily="Source Sans Pro" Id="2d0079bb-f973-4cde-b524-99a2dc8a930d" Panel.Bounds="391,130,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <Title RichText="Reserved name" FontFamily="Source Sans Pro" Id="54bab27f-b21c-4b13-8890-d24ef2c5e621" Panel.Bounds="182,-32,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="Reserved name" FontFamily="Source Sans Pro" Id="54bab27f-b21c-4b13-8890-d24ef2c5e621" Panel.Bounds="391,186,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <List Direction="Vertical" Id="a24bbef8-c033-4d6c-8544-cc9ae72fc106" Panel.Bounds="0,133,251{5,2147483647},128{5,2147483647}">
+                                <List Direction="Vertical" Id="a24bbef8-c033-4d6c-8544-cc9ae72fc106" Panel.Bounds="209,351,251{5,2147483647},158{5,2147483647}">
                                     <List.Template>
                                         <Template Id="40d89bdd-0e79-4ab9-8041-34066fdeae8d">
                                             <Template.Content>
@@ -229,17 +229,17 @@
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <Title RichText="Chat rooms:" FontFamily="Source Sans Pro" Id="532da0b6-58c7-44b9-a716-b3a74c48155b" Panel.Bounds="4,76,5*{5,2147483647},5*{5,2147483647}" />
+                                <Title RichText="Chat rooms:" FontFamily="Source Sans Pro" Id="532da0b6-58c7-44b9-a716-b3a74c48155b" Panel.Bounds="213,294,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <Title RichText="&lt;Run FontFamily=&quot;Source Sans Pro&quot; FontWeight=&quot;Bold&quot; &gt;Search user:&lt;/Run&gt;" Align="Center" FontSize="24" Id="3a89a785-c49b-4fdd-999b-5cf485b2a78b" Panel.Bounds="56,-174,153{5,2147483647},32{5,2147483647}" />
+                                <Title RichText="&lt;Run FontFamily=&quot;Source Sans Pro&quot; FontWeight=&quot;Bold&quot; &gt;Search user:&lt;/Run&gt;" Align="Center" FontSize="24" Id="3a89a785-c49b-4fdd-999b-5cf485b2a78b" Panel.Bounds="265,44,153{5,2147483647},32{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <Tree FontSize="14" FontFamily="Source Sans Pro" Id="54a74a62-146c-467f-83b5-bcd5fb8f5d19" Panel.Bounds="-187,-115,153{5,2147483647},489{5,2147483647}">
+                                <Tree FontSize="14" FontFamily="Source Sans Pro" Id="54a74a62-146c-467f-83b5-bcd5fb8f5d19" Panel.Bounds="22,103,153{5,2147483647},489{5,2147483647}">
                                     <Tree.Items>
                                         <TreeItem Text="Users" Id="8da14a37-6333-4e41-b67e-7709b9c2b660">
                                             <TreeItem.Icon>
@@ -278,22 +278,27 @@
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <Button Text="Mute" CornerRadius="8" FontFamily="Source Sans Pro" Id="c4dfef3c-a752-4269-921b-6de7abfd9754" Panel.Bounds="362,235,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Mute" CornerRadius="8" FontFamily="Source Sans Pro" Id="c4dfef3c-a752-4269-921b-6de7abfd9754" Panel.Bounds="571,453,80{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <Button Text="Rename user" CornerRadius="8" FontFamily="Source Sans Pro" Id="dd123848-bc70-4b5a-ab43-912457ba8906" Panel.Bounds="362,183,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Rename user" CornerRadius="8" FontFamily="Source Sans Pro" Id="dd123848-bc70-4b5a-ab43-912457ba8906" Panel.Bounds="571,401,80{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <Button Text="Unban" CornerRadius="8" FontFamily="Source Sans Pro" Id="ef78e1ad-28da-4561-829c-985c316a615c" Panel.Bounds="362,131,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Unban" CornerRadius="8" FontFamily="Source Sans Pro" Id="ef78e1ad-28da-4561-829c-985c316a615c" Panel.Bounds="571,349,80{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <Button Text="Ban" CornerRadius="8" FontFamily="Source Sans Pro" Id="4af2c8f4-5290-4eca-b0eb-ca3b68e63023" Panel.Bounds="362,79,80{5,2147483647},35{5,2147483647}" />
+                                <Button Text="Ban" CornerRadius="8" FontFamily="Source Sans Pro" Id="4af2c8f4-5290-4eca-b0eb-ca3b68e63023" Panel.Bounds="571,297,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
+                            <Add.Item>
+                                <Button Text="Close" CornerRadius="8" FontFamily="Source Sans Pro" Id="9c61b9af-e4a2-4bc1-8b6e-afe94e9c43df" Panel.Bounds="648,547,80{5,2147483647},35{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
