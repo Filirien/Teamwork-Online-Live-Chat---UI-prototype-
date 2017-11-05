@@ -62,11 +62,6 @@
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <TextArea Id="e8960eae-d13a-4852-89fe-285262aef4eb" Panel.Bounds="22,592,732{5,2147483647},29{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
-                            <Add.Item>
                                 <i:SearchBar WatermarkText="Search" FontFamily="Source Sans Pro" Id="699e8747-90ce-4d88-a880-8f936b8f9230" Panel.Bounds="426,48,122{105,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
@@ -239,7 +234,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
-                                <Tree FontSize="14" FontFamily="Source Sans Pro" Id="54a74a62-146c-467f-83b5-bcd5fb8f5d19" Panel.Bounds="22,103,153{5,2147483647},489{5,2147483647}">
+                                <Tree FontSize="14" FontFamily="Source Sans Pro" Id="54a74a62-146c-467f-83b5-bcd5fb8f5d19" Panel.Bounds="22,103,153{5,2147483647},518{5,2147483647}">
                                     <Tree.Items>
                                         <TreeItem Text="Users" Id="8da14a37-6333-4e41-b67e-7709b9c2b660">
                                             <TreeItem.Icon>
@@ -299,6 +294,11 @@
                         <Add Property="Panel.Children" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
                             <Add.Item>
                                 <Button Text="Close" CornerRadius="8" FontFamily="Source Sans Pro" Id="9c61b9af-e4a2-4bc1-8b6e-afe94e9c43df" Panel.Bounds="648,547,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="d272c1f1-f552-44fa-b827-793e5e4e8d19" Target="056eea6d-fd96-49f3-878b-9497c79e6010">
+                            <Add.Item>
+                                <Rectangle Thickness="2" CornerRadius="4" Id="46aa7c25-5d14-4097-bbbb-c2fb46b757d7" Panel.Bounds="15,9,746{5,2147483647},619{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>

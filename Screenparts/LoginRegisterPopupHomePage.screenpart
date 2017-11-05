@@ -90,7 +90,18 @@
                         </Add>
                         <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
                             <Add.Item>
-                                <TextBox WatermarkText="Your username" FontFamily="Source Sans Pro" Id="c5f0db23-f09f-4a3e-aa20-a4857056507e" Panel.Bounds="441,90,120{5,2147483647},5*{5,2147483647}" />
+                                <TextBox WatermarkText="Your username" FontFamily="Source Sans Pro" Id="c5f0db23-f09f-4a3e-aa20-a4857056507e" Panel.Bounds="441,90,120{5,2147483647},5*{5,2147483647}">
+                                    <TextBox.TextChanged>
+                                        <ConditionalCommand Id="a4f6a145-9c53-45de-aace-419d2d37aa34">
+                                            <ConditionalCommand.Command>
+                                                <CommandSwitchTo SceneId="39d9f64b-c9a9-4420-a241-16e09bf24dfe" Created="11/05/2017 20:55:03" Id="1ff02121-2c89-490a-9fef-f1daadb7e314" />
+                                            </ConditionalCommand.Command>
+                                            <ConditionalCommand.Condition>
+                                                <TextCondition Text="admin" />
+                                            </ConditionalCommand.Condition>
+                                        </ConditionalCommand>
+                                    </TextBox.TextChanged>
+                                </TextBox>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="692c915a-05b0-4ce6-b7cf-c4cf8206915e">
@@ -102,7 +113,7 @@
                             <Add.Item>
                                 <CheckBox Text="Chat Anonimously" FontFamily="Source Sans Pro" Id="4b62e349-2e95-494c-8e5d-1c1bd6f54511" Panel.Bounds="441,184,5*{5,2147483647},5*{5,2147483647}">
                                     <CheckBox.Checked>
-                                        <CommandSwitchTo SceneId="978e9da8-dbcc-478e-9dd3-75474c414a1d" AutoRevertEvent="CheckBox.Unchecked" Created="10/31/2017 08:40:38" Id="4db26579-64eb-4777-8821-13c156509903" />
+                                        <CommandSwitchTo SceneId="dcb48d68-20cb-4f20-a0c2-9e276f276255" AutoRevertEvent="CheckBox.Unchecked" Created="11/05/2017 20:29:00" Id="0f48a21a-e0dd-4c49-98a8-5e2063fd1356" />
                                     </CheckBox.Checked>
                                 </CheckBox>
                             </Add.Item>
@@ -117,14 +128,19 @@
                 </KeyFrame>
             </Scene.KeyFrames>
         </Scene>
-        <Scene Title="Checked Chat Anonimously" ParentScene="c8557269-e755-45e8-b269-7ebdb0f68a0d" Created="10/31/2017 08:40:38" Id="978e9da8-dbcc-478e-9dd3-75474c414a1d">
+        <Scene Title="Checked Chat Anonimously" ParentScene="c8557269-e755-45e8-b269-7ebdb0f68a0d" Created="11/05/2017 20:29:00" Id="dcb48d68-20cb-4f20-a0c2-9e276f276255">
             <Scene.KeyFrames>
-                <KeyFrame Id="829f45f4-d0a8-4fc9-a6d0-a4df4dfe36fa">
+                <KeyFrame Id="1d6e59c4-9727-41f5-b106-c1d90b7e4404">
                     <KeyFrame.Operations>
-                        <Set Property="Control.IsEnabled" Value="False" Target="5d5c02f7-87aa-4c9d-8075-d72cf348353f" />
                         <Set Property="CheckBox.IsChecked" Value="True" Target="4b62e349-2e95-494c-8e5d-1c1bd6f54511" />
+                        <Set Property="Control.IsEnabled" Value="False" Target="5d5c02f7-87aa-4c9d-8075-d72cf348353f" />
                     </KeyFrame.Operations>
                 </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Changed Textbox to 'admin'" StateGroup="c8557269-e755-45e8-b269-7ebdb0f68a0d" ParentScene="c8557269-e755-45e8-b269-7ebdb0f68a0d" Created="11/05/2017 20:55:03" Id="39d9f64b-c9a9-4420-a241-16e09bf24dfe">
+            <Scene.KeyFrames>
+                <KeyFrame Id="b4f86354-e952-424c-8233-004016c36b41" />
             </Scene.KeyFrames>
         </Scene>
     </ScreenPart.Scenes>

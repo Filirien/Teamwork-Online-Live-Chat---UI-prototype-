@@ -1,7 +1,8 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                xmlns:d="http://prototypes.infragistics.com/views/design"
-                                                                                Id="d7b5e9a4-5df0-4564-9a7e-1f26c016bb6e" d:Design.ShowOpeningAnimation="True">
+                                                                                   xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="d7b5e9a4-5df0-4564-9a7e-1f26c016bb6e" d:Design.ShowOpeningAnimation="True">
     <Page.Content>
         <Content Width="1024" Height="768" Id="97be2115-fd76-4296-a793-93459ca72729">
             <Content.Layers>
@@ -35,7 +36,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
                             <Add.Item>
-                                <Tree BorderColor="#FF555555" CornerRadius="2" BorderThickness="2" Id="45c85494-928d-4bb0-8148-29a3b6ed2b0e" Panel.Bounds="10,56,218{5,2147483647},702{5,2147483647}">
+                                <Tree BorderColor="#FF555555" CornerRadius="2" BorderThickness="2" Id="45c85494-928d-4bb0-8148-29a3b6ed2b0e" Panel.Bounds="10,56,218{5,2147483647},650{5,2147483647}">
                                     <Tree.Items>
                                         <TreeItem Text="Public Rooms" Id="a684140a-0151-4ec5-812f-4eb277609bc1">
                                             <TreeItem.Children>
@@ -49,7 +50,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
                             <Add.Item>
-                                <ListBox BorderColor="#FF555555" CornerRadius="4" BorderThickness="2" Id="12e04343-94a3-458f-b68b-907125869ee6" Panel.Bounds="868,56,146{5,2147483647},702{5,2147483647}">
+                                <ListBox BorderColor="#FF555555" CornerRadius="4" BorderThickness="2" Id="12e04343-94a3-458f-b68b-907125869ee6" Panel.Bounds="868,89,146{5,2147483647},669{5,2147483647}">
                                     <ListBox.Items>
                                         <Item Text="Guest #1" Id="4b3b98f0-1194-43ed-ba97-b3ad231edae8" />
                                         <Item Text="Guest #2" Id="525a1663-2afa-4f04-9792-9bcb3a948310" />
@@ -59,7 +60,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
                             <Add.Item>
-                                <TextBox Border="#FF555555" FontSize="14" Id="b9f00359-9a6a-409e-a1da-25fdf1a42de3" Panel.Bounds="235,730,626{5,2147483647},5*{5,2147483647}" />
+                                <TextBox WatermarkText="Message" Border="#FF555555" FontSize="14" Id="b9f00359-9a6a-409e-a1da-25fdf1a42de3" Panel.Bounds="235,730,626{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
@@ -79,7 +80,7 @@
                                             <TabItem.Content>
                                                 <Container ClipToContainer="True" Id="e68bd429-2b0d-47ee-8694-c88c130a6e4a">
                                                     <Container.Children>
-                                                        <Label RichText="Welcome to Public Room #2" FontSize="14" FontStyle="Italic" Id="c2821df0-aeb9-4d25-8cec-7165717f4a5c" Name="Textbox" Panel.Bounds="12,607,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Label RichText="Welcome to Public Room #1" FontSize="14" FontStyle="Italic" Id="c2821df0-aeb9-4d25-8cec-7165717f4a5c" Name="Textbox" Panel.Bounds="12,607,5*{5,2147483647},5*{5,2147483647}" />
                                                     </Container.Children>
                                                 </Container>
                                             </TabItem.Content>
@@ -91,6 +92,74 @@
                         <Add Property="Panel.Children" Before="93561f72-70b6-44c5-901d-4277f720590a" Target="42019516-c7c0-45c4-83ed-734e280336e4">
                             <Add.Item>
                                 <Rectangle Thickness="2" Color="#FF555555" Id="9ea66589-2cf0-4d40-87c9-0c582cf77da4" Panel.Bounds="235,56,626{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Rectangle Thickness="2" CornerRadius="4" Id="d2692a54-9f87-48af-9b14-d8520254d69d" Panel.Bounds="868,56,146{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Label RichText="Room Participants:" FontSize="14" FontFamily="Source Sans Pro" Id="1ca876aa-5533-4cb7-be1b-830c193b3c7c" Panel.Bounds="885,62,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Icon CatalogId="Help2" Opacity="1" Id="8add2bf8-7e6e-4e6e-811f-ceb65546ebb8" Panel.Bounds="982,12,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Icon CatalogId="fa-at" Opacity="1" Id="c58f3880-5bea-48db-8248-b98da387c7ff" Panel.Bounds="947,13,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <i:SearchBar WatermarkText="Search" FontFamily="Source Sans Pro" Opacity="1" Id="df2d2e6d-df9c-4646-9f10-ead73d7594a0" Panel.Bounds="790,13,150{105,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Icon CatalogId="fa-users" Opacity="1" Id="f09b0405-bda6-40e4-86a5-a6dbc7060ad5" Panel.Bounds="755,13,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Icon CatalogId="linea-pin2" Opacity="1" Id="f469f5b7-6d3f-43f3-96d8-72f86447fc9c" Panel.Bounds="720,13,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Icon CatalogId="fa-bell-o" Opacity="1" Id="08e0ce75-5bd4-4d29-bcc4-b21df3741073" Panel.Bounds="685,13,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Rectangle Thickness="2" CornerRadius="4" Opacity="1" Id="cae48340-1136-4553-a2d2-f491aff463c7" Panel.Bounds="10,709,218{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Icon CatalogId="fa-github" Id="a8ed1046-2942-4fa6-a333-6c2d1364e49c" Panel.Bounds="19,718,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <i:Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;Guest #1&lt;/Run&gt;" Foreground="#FF000000" FontSize="17" FontStyle="Bold" Id="4fd3cf11-94f0-4f3e-8340-503e7fc9de4c" Panel.Bounds="54,722,0*,0*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Button Text="Register" BorderColor="#FF555555" CornerRadius="4" BorderThickness="2" Id="0ad54372-057b-4604-85a5-011c29ca92a1" Panel.Bounds="97,10,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Screens/Front Page.screen" Created="11/05/2017 23:16:20" Id="92f44590-f21f-40b4-9d06-150118c36f34">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Set Property="Content.Background" Value="#FFE2E2E2" Target="97be2115-fd76-4296-a793-93459ca72729" />
@@ -137,6 +206,26 @@
                                 </Button>
                             </Add.Item>
                         </Add>
+                        <Set Property="Control.Opacity" Value="0.2" Target="93561f72-70b6-44c5-901d-4277f720590a" />
+                        <Set Property="Control.IsEnabled" Value="False" Target="93561f72-70b6-44c5-901d-4277f720590a" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="0d3c74c3-1bbf-4bd5-8fc8-1e44932d3091" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="9ea66589-2cf0-4d40-87c9-0c582cf77da4" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="08e0ce75-5bd4-4d29-bcc4-b21df3741073" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="f469f5b7-6d3f-43f3-96d8-72f86447fc9c" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="f09b0405-bda6-40e4-86a5-a6dbc7060ad5" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="df2d2e6d-df9c-4646-9f10-ead73d7594a0" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="c58f3880-5bea-48db-8248-b98da387c7ff" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="12e04343-94a3-458f-b68b-907125869ee6" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="1ca876aa-5533-4cb7-be1b-830c193b3c7c" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="d2692a54-9f87-48af-9b14-d8520254d69d" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="45c85494-928d-4bb0-8148-29a3b6ed2b0e" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="b9f00359-9a6a-409e-a1da-25fdf1a42de3" />
+                        <Set Property="Control.IsEnabled" Value="False" Target="b9f00359-9a6a-409e-a1da-25fdf1a42de3" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="a8ed1046-2942-4fa6-a333-6c2d1364e49c" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="4fd3cf11-94f0-4f3e-8340-503e7fc9de4c" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="cae48340-1136-4553-a2d2-f491aff463c7" />
+                        <Set Property="Control.Opacity" Value="0.2" Target="0ad54372-057b-4604-85a5-011c29ca92a1" />
+                        <Set Property="Control.IsEnabled" Value="False" Target="0ad54372-057b-4604-85a5-011c29ca92a1" />
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>
