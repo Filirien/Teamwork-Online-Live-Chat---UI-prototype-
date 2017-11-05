@@ -1,0 +1,72 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.1000.51"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                        xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                        Id="d6988fdc-1dea-47e8-97f2-5fb6981ba1d4" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="149" Height="667" Background="#00FFFFFF" Id="61b53b69-c853-479c-9343-7458fdfc3e18">
+            <BorderedContent.Layers>
+                <Layer Id="a60330a9-565d-44e7-adec-7b6061b8aacf" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="a51dae46-b485-4165-ab8e-856f2a1ecaff" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="b3ef9cfa-b932-4062-9def-a192ed5df01b" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="ab8ecc45-681e-41c5-86b2-e08343b25e3a" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="11/05/2017 19:15:48" Id="9922f9af-7033-47d9-995c-8710cf823a87">
+            <Scene.KeyFrames>
+                <KeyFrame Id="e470955e-9093-416b-b529-fda01334f6f7">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a60330a9-565d-44e7-adec-7b6061b8aacf">
+                            <Add.Item>
+                                <ListBox BorderColor="#FF555555" CornerRadius="4" BorderThickness="2" Id="12e04343-94a3-458f-b68b-907125869ee6" Panel.Bounds="0,0,146{5,2147483647},661{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="ONLINE - 2" Id="a731c1a8-e342-405d-9351-231591c05c49" />
+                                        <Item Text="     Guest #1" Id="4b3b98f0-1194-43ed-ba97-b3ad231edae8" />
+                                        <Item Text="     Guest #2" Id="525a1663-2afa-4f04-9792-9bcb3a948310" />
+                                        <Item Text="OFFLINE - 3" Id="7e00cf13-1bf0-4d1f-9ca3-7f0aa6fae8ff" />
+                                        <Item Text="     Gosho" Id="f19aa44a-3812-4e1e-add5-42fac8045db9" />
+                                        <Item Text="     Tosho" Id="b145cb57-8dbe-4da7-a16b-ea22466428ef" />
+                                        <Item Text="     Misho" Id="adf3e2e7-7df9-43d1-8f50-8be48d522576" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a60330a9-565d-44e7-adec-7b6061b8aacf">
+                            <Add.Item>
+                                <Icon CatalogId="fa-user" Id="b2ee738b-a746-4cd2-ab15-48b05ec2cfb4" Panel.Bounds="5,27,18{5,2147483647},18{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a60330a9-565d-44e7-adec-7b6061b8aacf">
+                            <Add.Item>
+                                <Icon CatalogId="fa-user" Id="f61c56aa-a0fc-449c-9350-94dfb2b209e3" Panel.Bounds="5,50,18{5,2147483647},18{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a60330a9-565d-44e7-adec-7b6061b8aacf">
+                            <Add.Item>
+                                <Icon CatalogId="fa-android" Id="7186cd90-e39b-4471-8922-ad34aaf536db" Panel.Bounds="5,94,18{5,2147483647},18{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a60330a9-565d-44e7-adec-7b6061b8aacf">
+                            <Add.Item>
+                                <Icon CatalogId="fa-linux" Id="f0bbfdcc-f2e5-4005-b1f3-8c91fba4f9e1" Panel.Bounds="5,116,18{5,2147483647},18{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a60330a9-565d-44e7-adec-7b6061b8aacf">
+                            <Add.Item>
+                                <Icon CatalogId="fa-diamond" Id="8fbddf1d-af60-4c6e-ac9c-a293861b7292" Panel.Bounds="5,141,18{5,2147483647},18{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

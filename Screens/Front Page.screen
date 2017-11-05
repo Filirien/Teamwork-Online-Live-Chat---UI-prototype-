@@ -1,0 +1,247 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="d7b5e9a4-5df0-4564-9a7e-1f26c016bb6e" d:Design.ShowOpeningAnimation="True">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="97be2115-fd76-4296-a793-93459ca72729">
+            <Content.Layers>
+                <Layer Id="42019516-c7c0-45c4-83ed-734e280336e4" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="2e08cf2d-ca0a-49aa-8a76-de80d3ee3bed" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="4978d965-6de6-4351-83fd-a5bf9ff104b1" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="c48eb79e-47cd-46c9-96ab-97a3505a23d9" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/03/2017 17:55:52" Id="43486065-2ffe-4f29-9583-c0cb60869ead">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="250" Id="1fdf6215-f2b5-4971-b2bf-1828f340dcc5">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Button Text="Join Room" BorderColor="#FF555555" CornerRadius="4" BorderThickness="2" Opacity="0.2" IsEnabled="False" Id="93561f72-70b6-44c5-901d-4277f720590a" Panel.Bounds="10,10,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Tree BorderColor="#FF555555" CornerRadius="2" BorderThickness="2" Opacity="0.2" Id="45c85494-928d-4bb0-8148-29a3b6ed2b0e" Panel.Bounds="10,56,218{5,2147483647},649{5,2147483647}">
+                                    <Tree.Items>
+                                        <TreeItem Text="Public Rooms" Id="a684140a-0151-4ec5-812f-4eb277609bc1">
+                                            <TreeItem.Children>
+                                                <TreeItem Text="Public Room #1" Id="864781a9-6c1e-457e-ae68-a8acdd5d2a5c" />
+                                                <TreeItem Text="Public Room #2" Id="81f56f2f-21d8-43c8-a9fd-c960cb78e418" />
+                                            </TreeItem.Children>
+                                        </TreeItem>
+                                    </Tree.Items>
+                                </Tree>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <ListBox BorderColor="#FF555555" CornerRadius="4" BorderThickness="2" Opacity="0.2" Id="12e04343-94a3-458f-b68b-907125869ee6" Panel.Bounds="868,89,146{5,2147483647},669{5,2147483647}">
+                                    <ListBox.Items>
+                                        <Item Text="Guest #1" Id="4b3b98f0-1194-43ed-ba97-b3ad231edae8" />
+                                        <Item Text="Guest #2" Id="525a1663-2afa-4f04-9792-9bcb3a948310" />
+                                    </ListBox.Items>
+                                </ListBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <TextBox WatermarkText="Message" Border="#FF555555" FontSize="14" Opacity="0.2" IsEnabled="False" Id="b9f00359-9a6a-409e-a1da-25fdf1a42de3" Panel.Bounds="235,730,626{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Tabs BorderColor="#FF555555" BorderThickness="2" Opacity="0.2" Id="0d3c74c3-1bbf-4bd5-8fc8-1e44932d3091" Panel.Bounds="235,56,626{5,2147483647},669{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="Global Public Room" Id="85220e3d-da55-41a8-971f-05d75288909a">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="ea270d5b-3f93-43f8-9311-96c9985d563d">
+                                                    <Container.Children>
+                                                        <Label RichText="Welcome to Global Public Chat Room" FontSize="14" FontStyle="Italic" Id="5c4d9d60-67f0-4664-bd0a-a4083a6b7ad7" Name="Textbox" Panel.Bounds="12,607,5*{5,2147483647},5*{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Public Room #1" IsSelected="True" Id="a0b34e0b-2951-41cc-9624-b2cae6eecadd">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="e68bd429-2b0d-47ee-8694-c88c130a6e4a">
+                                                    <Container.Children>
+                                                        <Label RichText="Welcome to Public Room #1" FontSize="14" FontStyle="Italic" Id="c2821df0-aeb9-4d25-8cec-7165717f4a5c" Name="Textbox" Panel.Bounds="12,607,5*{5,2147483647},5*{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="93561f72-70b6-44c5-901d-4277f720590a" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Rectangle Thickness="2" Color="#FF555555" Opacity="0.2" Id="9ea66589-2cf0-4d40-87c9-0c582cf77da4" Panel.Bounds="235,56,626{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/LoginRegisterPopupHomePage.screenpart" Id="225d0737-42c5-4332-babf-7adc93a0bc69" Panel.Bounds="222,172,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="CheckBox.Checked" Target="4b62e349-2e95-494c-8e5d-1c1bd6f54511">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="3a42c755-9a92-4f39-8cf9-d8e80d30e68e" AutoRevertEvent="CheckBox.Unchecked" Created="11/05/2017 20:36:51" Id="68d6cf80-b924-477f-975b-252291027cdc" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="TextBox.TextChanged" Target="c5f0db23-f09f-4a3e-aa20-a4857056507e">
+                                            <Add.Item>
+                                                <ConditionalCommand Id="5678f981-004a-44cb-8b88-a830fa513d3c">
+                                                    <ConditionalCommand.Command>
+                                                        <CommandSwitchTo SceneId="56d28413-faae-4647-97bb-4bbc663fa497" Created="11/05/2017 20:58:37" Id="5066b4b3-4d53-4b1c-9d9d-f7699e1548ee" />
+                                                    </ConditionalCommand.Command>
+                                                    <ConditionalCommand.Condition>
+                                                        <TextCondition Text="admin" />
+                                                    </ConditionalCommand.Condition>
+                                                </ConditionalCommand>
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Control.Click" Target="bb2775c0-db29-481e-ae67-739aece759d9">
+                                            <Add.Item>
+                                                <CommandNavigate Screen="/Screens/Register user - view.screen" Created="11/05/2017 21:59:39" Id="93656ea9-1767-41dc-95ae-df8ac0de9a9c">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Control.Click" Target="b39b456d-3b85-457c-8a2b-675bb7af2e06">
+                                            <Add.Item>
+                                                <CommandNavigate Screen="/Screens/Register user - view.screen" Created="11/05/2017 21:59:54" Id="5c02b81a-cc22-403e-93a2-2a9b5a8f2efc">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Add.Item>
+                                        </Add>
+                                        <Set Property="TextBox.WatermarkText" Value="Type admin for admin" Target="c5f0db23-f09f-4a3e-aa20-a4857056507e" />
+                                        <Move To="432,90" Target="c5f0db23-f09f-4a3e-aa20-a4857056507e" />
+                                        <Resize To="129,5" Target="c5f0db23-f09f-4a3e-aa20-a4857056507e" />
+                                        <Move To="432,137" Target="5d5c02f7-87aa-4c9d-8075-d72cf348353f" />
+                                        <Resize To="129,5" Target="5d5c02f7-87aa-4c9d-8075-d72cf348353f" />
+                                        <Move To="457,28" Target="52a3f514-d6b4-49b9-8db8-d5e36ef3bd21" />
+                                        <Move To="435,183" Target="4b62e349-2e95-494c-8e5d-1c1bd6f54511" />
+                                        <Move To="456,238" Target="b39b456d-3b85-457c-8a2b-675bb7af2e06" />
+                                        <Remove Target="0f48a21a-e0dd-4c49-98a8-5e2063fd1356" />
+                                        <Remove Target="a4f6a145-9c53-45de-aace-419d2d37aa34" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Rectangle Thickness="2" CornerRadius="4" Opacity="0.2" Id="477c4dfe-42e3-4fed-a013-670d3ae76dd3" Panel.Bounds="868,56,146{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Label RichText="Room Participants:" FontSize="14" FontFamily="Source Sans Pro" Opacity="0.2" Id="c4107c42-4d62-4db3-868d-a2e014393392" Panel.Bounds="885,62,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Icon CatalogId="Help2" Opacity="0.2" Id="f170e10e-e5c8-4e08-8446-b5f070541c9e" Panel.Bounds="982,12,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Icon CatalogId="fa-at" Opacity="0.2" Id="62830ffc-7345-47f0-87b0-ca69c80330b6" Panel.Bounds="947,13,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <i:SearchBar WatermarkText="Search" FontFamily="Source Sans Pro" Opacity="0.2" Id="e7e5e8fb-e74d-4a4d-b08d-8dd496781d70" Panel.Bounds="790,13,150{105,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Icon CatalogId="fa-users" Opacity="0.2" Id="4f54348d-60a8-402d-b303-f498ed33877a" Panel.Bounds="755,13,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Icon CatalogId="linea-pin2" Opacity="0.2" Id="95029c74-c769-4024-9099-222c67fdbd7c" Panel.Bounds="720,13,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Icon CatalogId="fa-bell-o" Opacity="0.2" Id="e8e557dc-fbbd-41f2-bf2a-2c98f8ac5472" Panel.Bounds="685,13,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Rectangle Thickness="2" CornerRadius="4" Opacity="0.2" Id="f4924562-5637-480f-8795-293ef41893eb" Panel.Bounds="10,709,218{5,2147483647},49{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Background" Value="#FFE2E2E2" Target="97be2115-fd76-4296-a793-93459ca72729" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+                <KeyFrame Duration="250" Id="8fdb7022-c68a-4494-a481-d3e0d44fbff0" />
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Checked Chat Anonimously" ParentScene="43486065-2ffe-4f29-9583-c0cb60869ead" Created="11/05/2017 20:36:51" Id="3a42c755-9a92-4f39-8cf9-d8e80d30e68e">
+            <Scene.KeyFrames>
+                <KeyFrame Id="80db6bb5-2b75-4755-b398-dacb910fecb5">
+                    <KeyFrame.Operations>
+                        <Add Property="Control.Click" Target="225d0737-42c5-4332-babf-7adc93a0bc69.b39b456d-3b85-457c-8a2b-675bb7af2e06">
+                            <Add.Item>
+                                <CommandNavigate Screen="/Screens/Template Page.screen" Created="11/05/2017 20:42:12" Id="93317aac-0661-49e4-b0db-bc46018a97b5">
+                                    <CommandNavigate.Transition>
+                                        <NavigateTransition Duration="0" />
+                                    </CommandNavigate.Transition>
+                                </CommandNavigate>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Rectangle Thickness="2" CornerRadius="4" Opacity="0.2" Id="08ca3fba-fce3-4537-9877-e3ab9f8830aa" Panel.Bounds="868,56,146{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="42019516-c7c0-45c4-83ed-734e280336e4">
+                            <Add.Item>
+                                <Label RichText="Room Participants:" FontSize="14" FontFamily="Source Sans Pro" Opacity="0.2" Id="ae4bcea7-d6e9-456a-8b63-74e4089e3ee2" Panel.Bounds="885,62,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="CheckBox.IsChecked" Value="True" Target="225d0737-42c5-4332-babf-7adc93a0bc69.4b62e349-2e95-494c-8e5d-1c1bd6f54511" />
+                        <Set Property="Control.IsEnabled" Value="False" Target="225d0737-42c5-4332-babf-7adc93a0bc69.5d5c02f7-87aa-4c9d-8075-d72cf348353f" />
+                        <Move To="868,89" Target="12e04343-94a3-458f-b68b-907125869ee6" />
+                        <Resize To="146,669" Target="12e04343-94a3-458f-b68b-907125869ee6" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Changed Textbox to 'admin'" StateGroup="43486065-2ffe-4f29-9583-c0cb60869ead" ParentScene="43486065-2ffe-4f29-9583-c0cb60869ead" Created="11/05/2017 20:58:37" Id="56d28413-faae-4647-97bb-4bbc663fa497">
+            <Scene.KeyFrames>
+                <KeyFrame Id="443040f3-dec9-4aca-aa83-f6b987f31ebe">
+                    <KeyFrame.Operations>
+                        <Add Property="Control.Click" Target="225d0737-42c5-4332-babf-7adc93a0bc69.b39b456d-3b85-457c-8a2b-675bb7af2e06">
+                            <Add.Item>
+                                <CommandNavigate Screen="/Screens/AdminPage.screen" Created="11/05/2017 20:58:51" Id="181ad617-16e0-4364-90b6-54fb26a7158a">
+                                    <CommandNavigate.Transition>
+                                        <NavigateTransition Duration="0" />
+                                    </CommandNavigate.Transition>
+                                </CommandNavigate>
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="225d0737-42c5-4332-babf-7adc93a0bc69.5c02b81a-cc22-403e-93a2-2a9b5a8f2efc" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
